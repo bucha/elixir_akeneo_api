@@ -11,7 +11,7 @@ defmodule AkeneoApi.Endpoint do
   end
 
   def get_documentation(%{} = spec) do
-    spec["documentation"]
+    spec["description"]
   end
 
 end

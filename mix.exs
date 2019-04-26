@@ -4,7 +4,7 @@ defmodule AkeneoApi.MixProject do
   def project do
     [
       app: :akeneo_api,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -25,7 +25,8 @@ defmodule AkeneoApi.MixProject do
   defp deps do
     [
       {:oauth2, "~> 1.0"},
-      {:jason, "~> 1.1"}
+      {:jason, "~> 1.1"},
+      {:ex_doc, "~> 0.20.2", only: :dev}
     ]
   end
 
