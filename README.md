@@ -14,7 +14,7 @@ The package can be installed by adding `akeneo_api` to your list of dependencies
 ```elixir
 def deps do
   [
-    {:akeneo_api, "~> 0.1.0"}
+    {:akeneo_api, "~> 0.1.1"}
   ]
 end
 ```
